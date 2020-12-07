@@ -1,6 +1,6 @@
 def main():
     # Part One: Min and Max Requirements
-    password_file = open('input/password_input.txt', 'r')
+    password_file = open('input/input_12-02-20.txt', 'r')
     data = [line.split() for line in password_file]
     password_file.close()
     count_valid = 0

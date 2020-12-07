@@ -4,7 +4,7 @@ import re
 def main():
     # Part One: Report Valid Passports (Fields)
     passports = []
-    with open('input/passport_input.txt') as passport_input:
+    with open('input/input_12-04-20.txt') as passport_input:
         new_passport = ''
         for line in passport_input:
             if line != '\n':

@@ -1,4 +1,4 @@
-with open('input/boarding_pass_input.txt', 'r') as f:
+with open('input/input_12-05-20.txt', 'r') as f:
     boarding_passes = f.read().split('\n')
 
 

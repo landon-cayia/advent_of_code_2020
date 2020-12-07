@@ -1,6 +1,6 @@
 def main():
     # Part One: 2 NUMBERS
-    expenses_file = open('input/expense_report.txt', 'r')
+    expenses_file = open('input/input_12-01-20.txt', 'r')
     expenses = [int(exp) for exp in expenses_file]
     expenses_file.close()
     for exp_i in expenses:
