@@ -32,3 +32,23 @@ while new_options != 0:
     colors_to_check = new_colors_to_check
 
 print(count_options)
+
+count_options2 = 0
+
+
+def recurse(parent_rule):
+    global count_options2
+    temp_rule = {}
+    for rule in all_rules:
+        if rule in parent_rule:
+            for each in all_rules[rule]:
+                if each[0] != 'no':
+                    local_count = int(each[0])*int(parent_rule[rule])
+                    temp_rule.update({each[1]: int(local_count)})
+                    count_options2 += local_count
+    for r in temp_rule.items():
+        recurse({r[0]: r[1]})
+
+
+recurse({'shiny gold': 1})
+print(count_options2)
