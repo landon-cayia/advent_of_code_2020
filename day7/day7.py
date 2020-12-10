@@ -1,4 +1,4 @@
-with open('input/input_12-07-20.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     data = f.readlines()
 
 all_rules = {}

@@ -37,7 +37,7 @@ def exec_instr(acc, line, cmd, op, num):
         return line, acc
 
 
-with open('input/input_12-08-20.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     data = f.readlines()
 
 

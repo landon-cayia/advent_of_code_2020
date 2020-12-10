@@ -24,7 +24,7 @@ def check_sums(nums, low, high):
     return nums[high]
 
 
-with open('input/input_12-09-20.txt') as f:
+with open('input.txt') as f:
     data = f.readlines()
 
 

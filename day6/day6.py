@@ -1,6 +1,6 @@
 import string
 
-with open('input/input_12-06-20.txt', 'r') as f:
+with open('input.txt', 'r') as f:
     data = f.read().split('\n\n')
 
 

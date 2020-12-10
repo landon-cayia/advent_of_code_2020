@@ -1,6 +1,6 @@
 def main():
     # Part One: 3 right, 1 down
-    tree_input = open('input/input_12-03-20.txt', 'r')
+    tree_input = open('input.txt', 'r')
     tree_arr = [x for x in [y for y in tree_input]]
     slope = 3  # right / down = 3 right / 1 down = 3
     count_p1 = count_trees_slope(slope, tree_arr)
